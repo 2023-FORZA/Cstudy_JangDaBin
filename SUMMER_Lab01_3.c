@@ -6,7 +6,6 @@ int main() {
 
     int sticks = 0;
 
-    // 64cm 
     int current_length = 64;
     while (X > 0) {
         if (current_length <= X) {
