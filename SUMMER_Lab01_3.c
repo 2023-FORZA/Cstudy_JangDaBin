@@ -9,10 +9,10 @@ int main() {
     int current_length = 64;
     while (X > 0) {
         if (current_length <= X) {
-            X -= current_length; // 
-            sticks++; // 
+            X -= current_length; 
+            sticks++; 
         }
-        current_length /= 2; // 
+        current_length /= 2; 
     }
 
     printf("%d\n", sticks);
